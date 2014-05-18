@@ -1,0 +1,103 @@
+body{
+	background-color: #FAFFFF;
+	font-family: candara, sans-serif;
+
+	}
+
+	#header{
+	padding: 15px;
+	color: black;
+	font-size: 80px;
+	text-align:center;
+	min-width: 600px;
+	}
+
+	.yim{
+		font-size: 16px;
+	}
+
+	#linkbar{
+		padding: 15px;
+		margin: auto;
+		width: 600px;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		text-align: center;
+	}
+
+	li{
+		display: inline;
+		margin: 50px;
+	}
+
+	li.aboutme{
+		color: #909090;
+	}
+
+	.homepage:link{color: #000000; text-decoration:none;}
+	.homepage:visited{color: #000000; text-decoration:none;}
+	.homepage:hover{color: #909090; text-decoration:none;}
+	.homepage:active{color: #000000; text-decoration:none;}
+
+	.linkbar:link{color: #000000; text-decoration:none;}
+	.linkbar:visited{color: #000000; text-decoration:none;}
+	.linkbar:hover{color: #909090; text-decoration:none;}
+	.linkbar:active{color: #000000; text-decoration:none;}
+
+	#post1{
+		width: 600px;
+		padding: 15px;
+		margin: auto;
+		text-align: center;
+	}
+
+	#head1{
+		width: 600px;
+		padding: 5px;
+		text-align: left;
+	}
+
+	p.text1{
+		padding: 15px;
+		text-align: left;
+	}
+
+	#post2{
+		width: 600px;
+		padding: 15px;
+		margin: auto;
+		text-align: center;
+	}
+
+	#head2{
+		width: 600px;
+		padding: 5px;
+		text-align: left;
+	}
+
+	p.text2{
+		padding: 15px;
+		text-align: left;
+	}
+
+	
+	.email:link{color: #909090; text-decoration:none;}
+	.email:visited{color: #909090; text-decoration:none;}
+	.email:hover{color: #909090; text-decoration:none;}
+	.email:active{color: #909090; text-decoration:none;}
+	
+
+	#footer{
+		background-color: #FAFFFF;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		padding: 5px;
+		width: 100%;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.footer{
+		font-size: 10px;
+	}
