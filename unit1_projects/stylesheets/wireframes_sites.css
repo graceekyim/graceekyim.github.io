@@ -31,6 +31,13 @@ body{
 		margin: 50px;
 	}
 
+	a:link{color: #000000; text-decoration:none;}
+	a:visited{color: #000000; text-decoration:none;}
+	a:hover{color: #909090; text-decoration:none;}
+	a:active{color: #000000; text-decoration:none;}
+
+
+
 
 	#post1{
 		width: 700px;
@@ -52,23 +59,24 @@ body{
 		text-align: left;
 	}
 
+
 		p.text{
 		width:700px;
 		padding: 15px;
 		text-align: left;
 	}
 	
-	.site1{
-		width: 700px;
-		text-align: left;
-		font-size: 120%;
+	.links:link{color: #909090; text-decoration:none;}
+	.links:visited{color: #909090; text-decoration:none;}
+	.links:hover{color: #909090; text-decoration:none;}
+	.links:active{color: #909090; text-decoration:none;}
+
+	.center{
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		margin: auto;
 	}
-
-
-	a:link{color: #000000; text-decoration:none;}
-	a:visited{color: #000000; text-decoration:none;}
-	a:hover{color: #909090; text-decoration:none;}
-	a:active{color: #000000; text-decoration:none;}
 
 	#footer{
 		background-color: #FAFFFF;

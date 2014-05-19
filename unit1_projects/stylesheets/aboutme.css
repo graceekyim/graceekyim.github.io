@@ -9,7 +9,7 @@ body{
 	color: black;
 	font-size: 80px;
 	text-align:center;
-	min-width: 600px;
+	min-width: 700px;
 	}
 
 	.yim{
@@ -19,7 +19,7 @@ body{
 	#linkbar{
 		padding: 15px;
 		margin: auto;
-		width: 600px;
+		width: 700px;
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 		text-align: center;
@@ -45,14 +45,14 @@ body{
 	.linkbar:active{color: #000000; text-decoration:none;}
 
 	#post1{
-		width: 600px;
+		width: 700px;
 		padding: 15px;
 		margin: auto;
 		text-align: center;
 	}
 
 	#head1{
-		width: 600px;
+		width: 700px;
 		padding: 5px;
 		text-align: left;
 	}
@@ -63,14 +63,14 @@ body{
 	}
 
 	#post2{
-		width: 600px;
+		width: 700px;
 		padding: 15px;
 		margin: auto;
 		text-align: center;
 	}
 
 	#head2{
-		width: 600px;
+		width: 700px;
 		padding: 5px;
 		text-align: left;
 	}
