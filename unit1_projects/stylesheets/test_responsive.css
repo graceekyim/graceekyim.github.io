@@ -1,6 +1,7 @@
 body{
 	background-color: #FAFFFF;
 	font-family: candara, sans-serif;
+	font-size: 16px;
 
 	}
 
@@ -9,7 +10,7 @@ body{
 	margin: 0;
 	color: black;
 	background-color: #99FFFF;
-	font-size: 70px;
+	font-size: 4em;
 	text-align:center;
 	width: 100%;
 	min-width: 5.5em;
@@ -17,7 +18,7 @@ body{
 	}
 
 	.yim{
-		font-size: 16px;
+		font-size: 0.25em;
 	}
 
 	#linkbar{
@@ -58,10 +59,10 @@ body{
 		left: 0px;
 		padding: 5px;
 		width: 100%;
-		font-size: 16px;
+		font-size: 1em;
 		text-align: center;
 	}
 
 	.footer{
-		font-size: 10px;
+		font-size: 0.5em;
 	}
