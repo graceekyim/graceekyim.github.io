@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	
+	<link rel="stylesheet" type="text/css" href="./stylesheets/week2_technical.css">
+
+	<head>
+		<title>Grace Yim | the blog</title>
+	</head>
+
+	<body>
+		<div id="header">Grace Yim <span class="yim">the blog</span></div>
+
+		<ul id="navbar">
+			<li><a href="http://graceekyim.github.io/index.html">Home</a></li>
+			<li><a href="./aboutme.html">About Me</a></li>
+			<li><a href="http://devbootcamp.com" target="_blank">Dev Bootcamp</a></li>
+		</ul>
+
+		<div id="post1">
+			<p class="date1">Saturday, May 24, 2014</p>
+
+			<h1 id="head1"><span id="subheader">Technical Post</span><br/>CSS Display: Inline vs. Inline-Block
+				</h1>
+			
+			<p class="text">
+
+				<h3>Introduction to CSS Property: <em>Display</em></h3>
+
+				When you' re designing a website, you will occasionally want to change the <em>display</em> value of inline or block-level elements. This is particularly useful for creating navigation bars, like the one at the top of this page. <br/><br/>
+
+				Upon first glance it appears as if the links are inline elements, but once you look at the HTML file you'll see that the links are in &lt;li&gt; tags, which are block-level elements. This is where the <em>display</em> property comes in. In order to change the appearance of inline or block-level elements, you can change the CSS property called <em>display</em>. There are many values available for this property, but today we are going to focus on two: inline and inline-block.<br/><br/>
+
+				In order to explain these two values, we'll need to start by reviewing the difference between inline and block-level elements.
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+			
+				<h3>HTML Elements: Inline</h3>
+				
+				Inline elements allow other elements to sit next to them and do not start new lines. They register margins and padding to the left and right, but ignore margins and padding on the top and bottom. Some examples of inline elements are &lt;em&gt;, &lt;strong&gt;, &lt;a&gt; and &lt;img&gt;. Here's a closer look at &lt;em&gt; and &lt;strong&gt; elements:<br/><br/>
+
+
+				<span class="example">HTML:</span><br/>
+				<img src="images/inline_elements.png" alt="Inline Elements" id="inline_ex"><br/><br/>
+
+				<span class="example">RESULT:</span><br/>
+				<img src="images/inline_result.png" alt="Inline Result" id="inline_result">
+
+			</p><br/>
+
+			<hr/>
+
+
+			<p class="text">
+
+				<h3>HTML Elements: Block-Level</h3>
+				
+				Block-level elements always start new lines and do not allow other elements to sit next to them. They register margins and padding on all sides (top, bottom, left and right). Some examples of block-level elements are &lt;ol&gt;, &lt;li&gt;, &lt;h1&gt; and &lt;p&gt;. Here's a closer look at &lt;p&gt; and &lt;h1&gt;. <br/><br/>
+
+				<span class="example">HTML:</span><br/>
+				<img src="images/block_elements.png" alt="Block Elements" id="block_elem"><br/><br/>
+
+				<span class="example">RESULT:</span><br/>
+				<img src="images/block_result.png" alt="Block Result" id="block_result">
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+
+				<h3>CSS Property: <em>display</em></h3>
+			
+				Now that we've reviewed inline and block-level elements, let's explore the CSS property: <em>display</em> and how it can be used to change these elements. Since the navigation bar at the top of this page was changed using the <em>display</em> property, we'll use that as our example.  <br/><br/>
+
+				<span class="example">HTML:</span><br/>
+				<img src="images/navbar_html.png" alt="Navigation HTML" id="navbar_html"><br/><br/>
+
+				<br/>
+
+				In the HTML, you'll notice that the links are enclosed in &lt;li&gt; tags, making them block-level elements. 
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+
+				<h3>display: block</h3>
+
+				Let's start off by looking at the <em>display</em> property value: <strong>block</strong>. Since the links are enclosed in &lt;li&gt; tags, the <em>display</em> value has already been set to block.<br/><br/>
+
+
+				<em>Note: A border was added to the list elements to make it easier to read.</em><br/><br/>
+
+				<span class="example">CSS (display: block):</span><br/>
+				<img src="images/navbar_css1.png" alt="Navigation CSS1" id="navbar_css1"><br/>
+				<br/>
+
+
+				<span class="example">RESULT (display: block):</span><br/>
+				<img src="images/navbar_result1.png" alt="Navigation Result1" id="navbar_result1"><br/>
+				<br/>
+
+				When the <em>display</em> value is set to block, you'll notice that each element starts on a new line. Also, the elements are registering margins and padding on all sides and not allowing other elements to sit next to them. 
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+
+				<h3>display: inline<span class="navbar_page">*</span></h3>
+				Let's try changing the <em>display</em> property value to <strong>inline</strong>.<br/><br/>
+
+				<span class="example">CSS (display: inline):</span><br/>
+				<img src="images/navbar_css2.png" alt="Navigation CSS2" id="navbar_css2">
+				<br/><br/>
+
+				<span class="example">RESULT (display: inline):</span><br/>
+				<img src="images/navbar_result2.png" alt="Navigation Result2" id="navbar_result2"><br/><br/>
+
+				When the <em>display</em> value is set to inline, you'll notice that all the elements appear on one line. The elements are registering margins and padding on the left and right, but not on the top or bottom.<br/><br/>
+
+				<em><span class="navbar_page">*display: inline was the lucky winner for the navigation bar on this page!</span></em>
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+
+				<h3>display: inline-block</h3>
+				Let's try changing the <em>display</em> property value to <strong>inline-block</strong>.<br/><br/>
+
+				<span class="example">CSS (display: inline-block):</span><br/>
+				<img src="images/navbar_css3.png" alt="Navigation CSS3" id="navbar_css3">
+				<br/><br/>
+
+
+				<span class="example">RESULT (display: inline-block):</span><br/>
+				<img src="images/navbar_result3.png" alt="Navigation Result3" id="navbar_result3"><br/><br/>
+
+
+				When the <em>display</em> property value is set to inline-block, you'll notice that the elements are adopting properties of inline and block-level elements. Not only are the elements allowing other elements to sit next to them, they are accepting padding for all sides (top, bottom, left and right).
+
+			</p><br/>
+
+			<hr/>
+
+			<p class="text">
+				<h3>Summary</h3>
+
+				Now that we've reviewed the differences between inline and inline-block elements, let's summarize what we learned:<br/><br/>
+
+				<table>
+					<tr>
+						<th scope="column"><strong><em>display</em>: inline</strong></th>
+						<th scope="column"><strong><em>display</em>: block</strong></th>
+						<th scope="column"><strong><em>display</em>: inline-block</strong></th>
+					</tr>
+					<tr>
+						<td>Allows elements next to it</td>
+						<td>Always starts new line</td>
+						<td>Allows elements next to it</td>
+					</tr>
+					<tr>
+						<td>Registers margins/padding on left/right only</td>
+						<td>Registers margins/padding on all sides</td>
+						<td>Registers margins/padding on all sides</td>
+					</tr>
+				</table>
+
+
+				<p><br/>Now it's your turn! Try using <em>display</em>: inline, block or inline-block in your next webpage.</p>
+			</p>
+
+
+			
+		</div>
+
+		<br/>
+		<br/>
+
+
+		<div id="footer">Grace Yim <span class="footer">the blog</span></div>
+
+</html>
