@@ -58,9 +58,13 @@ body{
 	}
 
 	#head1{
-		width: 700px;
-		padding: 5px;
+		margin: auto;
+		padding: 0px;
 		text-align: left;
+	}
+
+	#subheader{
+		font-size: 50%;
 	}
 
 	blockquote{
