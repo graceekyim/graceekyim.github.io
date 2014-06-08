@@ -36,23 +36,20 @@ body{
 	a:hover{color: #909090; text-decoration:none;}
 	a:active{color: #000000; text-decoration:none;}
 
+	a.speciallink{
+		color: #909090;
+	}
+
 	#post1{
 		width: 700px;
+		margin: auto;
 		padding: 15px;
-		margin: auto;
+		text-align: left;
 	}
 
-	p.date1{
+	.date1{
 		width: 700px;
-		padding: 5px;
 		font-size: 80%;
-		text-align: left;
-	}
-
-	#head1{
-		margin: auto;
-		padding: 0px;
-		text-align: left;
 	}
 
 	#subheader{
