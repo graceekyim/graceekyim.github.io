@@ -99,30 +99,30 @@ body{
 		border: 1px solid black;
 	}
 
-	.proc_ex{
+	.proc_ex1{
 		width: 352px;
 		height: 33px;
 	}
 
-	.proc2_ex{
-		width: 400px;
-		height: 106px;
-	}
-
-	.proc2_result{
-		width: 125px;
-		height: 31px;
-		border: 1px solid black;
-	}
-
-	.proc3_ex{
+	.proc_ex2{
 		width: 361px;
 		height: 32px;
 	}
 
-	.proc3_result{
+	.proc_result2{
 		width: 44px;
 		height: 18px;
+		border: 1px solid black;
+	}
+
+	.proc_ex3{
+		width: 400px;
+		height: 106px;
+	}
+
+	.proc_result3{
+		width: 125px;
+		height: 31px;
 		border: 1px solid black;
 	}
 

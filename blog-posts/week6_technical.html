@@ -19,7 +19,7 @@
 		<div id="post1">
 			<p class="date1">Thursday, June 19, 2014</p>
 
-			<h1 id="head1"><span id="subheader">Technical Blog 2.6</span><br/>Blocks, Procs and Lambdas</h1>			
+			<h1 id="head1"><span id="subheader">Technical Blog 2.6</span><br/>Ruby Blocks, Procs and Lambdas</h1>			
 			
 			
 			<p class="text">
@@ -99,7 +99,7 @@
 
 				Proc Example 1:<br/>
 
-				<img src = "./images/week6_technical/proc_example.png" alt="Proc Example" class="proc_ex"><br/><br/>
+				<img src = "./images/week6_technical/proc_example1.png" alt="Proc Example 1" class="proc_ex1"><br/><br/>
 
 				Proc Result 1:<br/>
 
@@ -117,11 +117,11 @@
 
 				Proc Example 2:<br/>
 
-				<img src = "./images/week6_technical/proc3_example.png" alt = "Proc 3 Example" class = "proc3_ex"><br/><br/>
+				<img src = "./images/week6_technical/proc_example2.png" alt = "Proc Example 2" class = "proc_ex2"><br/><br/>
 
 				Proc Result 2:<br/>
 
-				<img src = "./images/week6_technical/proc3_result.png" alt = "Proc 3 Result" class = "proc3_result"><br/><br/>
+				<img src = "./images/week6_technical/proc_result2.png" alt = "Proc Result 2" class = "proc_result2"><br/><br/>
 
 
 				First, you'll notice that we tweaked proc_letter so that it will <em>puts</em> the letter instead of <em>return</em>. We added the <em>puts</em> to ensure the letter was being printed since we did not use the <em>each</em> method in this example. This brings us to the second change: in order to show you how procs handle arguments, we used the <em>call</em> method to run proc_letter. Again, this is just a different way of running the proc in order to show you how it handles arguments.<br/><br/>
@@ -137,11 +137,11 @@
 
 				Proc Example 3:<br/>
 
-				<img src = "./images/week6_technical/proc2_example.png" alt = "Proc 2 Example" class = "proc2_ex"><br/><br/>
+				<img src = "./images/week6_technical/proc_example3.png" alt = "Proc Example 3" class = "proc_ex3"><br/><br/>
 
 				Proc Result 3:<br/>
 
-				<img src = "./images/week6_technical/proc2_result.png" alt = "Proc 2 Result" class = "proc2_result"><br/><br/>
+				<img src = "./images/week6_technical/proc_result3.png" alt = "Proc Result 3" class = "proc_result3"><br/><br/>
 
 				In example 3, we took Proc Example 2 and placed the Proc object in a new method called <em>test</em>. We changed <em>puts</em> back to <em>return</em> since we are testing how procs handle the <em>return</em> statement. In line 3, we called proc_letter by using the <em>call</em> method and passed in the letter "k". In line 4, we told the method to <em>puts</em> "I printed the last line". Then in line 7, we called the <em>test</em> method to see what would happen.<br/><br/> 
 
@@ -161,7 +161,7 @@
 
 				Lambda Result 1:<br/>
 
-				<img src = "./images/week6_technical/block_result.png" alt = "Lambda Result 1" class = "lambda_result1"><br/><br/>
+				<img src = "./images/week6_technical/block_result.png" alt = "Lambda Result 1" class = "result"><br/><br/>
 
 				The block contained within lambda_letter is the same as the block contained within Proc Example 1 and the only difference is the syntax: lambda <em>{...}</em>. As for the result, it's the same as the result from Block Example and Proc Example 1.<br/><br/>
 
