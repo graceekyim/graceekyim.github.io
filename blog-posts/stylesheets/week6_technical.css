@@ -22,6 +22,7 @@ body{
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 		text-align: center;
+
 	}
 
 	li{
@@ -59,56 +60,17 @@ body{
 
 	.text{
 		width:700px;
+		padding: 15px;
 		text-align: left;
 	}
 	
-	#class{
-		width:127px;
-		height:47px;
-	}
-
-	#initialize{
-		width:390px;
-		height:93px;
-	}
-
-	#instancevar{
-		width:392px;
-		height:167px;
-	}
-
-	#result{
-		width:700px;
-		height:179px;
-	}
-
-	#complete{
-		width:700px;
-		height:284px;
-	}
-
-	#brazil{
-		width:336px;
-		height:18px;
-	}
-
-	#brazilresult{
-		width:334px;
-		height:33px;
-	}
-	
-	#brazilputs{
-		width:261px;
-		height:28px;
-		border: 1px solid black;
-	}
 	table{
 		margin:auto;
 	}
 
 	tr{
 		font-size: 75%;
-		text-align: left;
+		text-align: center;
 	}
 
 	td{
@@ -116,8 +78,79 @@ body{
 		border: 1px solid black;
 	}
 
+	#leftalign{
+		text-align: left;
+		border: 0px;
+	}
+
 	#rightalign{
 		text-align:right;
+		padding: 5px;
+	}
+
+	.block_ex{
+		width: 254px;
+		height: 48px;
+	}
+
+	.result{
+		width: 52px;
+		height: 45px;
+		border: 1px solid black;
+	}
+
+	.proc_ex{
+		width: 352px;
+		height: 33px;
+	}
+
+	.proc2_ex{
+		width: 400px;
+		height: 106px;
+	}
+
+	.proc2_result{
+		width: 125px;
+		height: 31px;
+		border: 1px solid black;
+	}
+
+	.proc3_ex{
+		width: 361px;
+		height: 32px;
+	}
+
+	.proc3_result{
+		width: 44px;
+		height: 18px;
+		border: 1px solid black;
+	}
+
+	.lambda_ex1{
+		width: 352px;
+		height: 33px;
+	}
+
+	.lambda_ex2{
+		width: 358px;
+		height: 32px;
+	}
+
+	.lambda_result2{
+		width: 596px;
+		height: 17px;
+		border: 1px solid black;
+	}
+
+	.lambda_ex3{
+		width: 397px;
+		height: 105px;
+	}
+
+	.lambda_result3{
+		width: 188px;
+		height: 19px;
+		border: 1px solid black;
 	}
 
 	#resources{
@@ -127,6 +160,7 @@ body{
 		margin: 0px;
 		text-align: center;
 	}
+
 
 	#footer{
 		background-color: black;

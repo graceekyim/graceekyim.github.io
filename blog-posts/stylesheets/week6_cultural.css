@@ -22,6 +22,7 @@ body{
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 		text-align: center;
+
 	}
 
 	li{
@@ -59,74 +60,10 @@ body{
 
 	.text{
 		width:700px;
+		padding: 15px;
 		text-align: left;
 	}
 	
-	#class{
-		width:127px;
-		height:47px;
-	}
-
-	#initialize{
-		width:390px;
-		height:93px;
-	}
-
-	#instancevar{
-		width:392px;
-		height:167px;
-	}
-
-	#result{
-		width:700px;
-		height:179px;
-	}
-
-	#complete{
-		width:700px;
-		height:284px;
-	}
-
-	#brazil{
-		width:336px;
-		height:18px;
-	}
-
-	#brazilresult{
-		width:334px;
-		height:33px;
-	}
-	
-	#brazilputs{
-		width:261px;
-		height:28px;
-		border: 1px solid black;
-	}
-	table{
-		margin:auto;
-	}
-
-	tr{
-		font-size: 75%;
-		text-align: left;
-	}
-
-	td{
-		padding: 5px;
-		border: 1px solid black;
-	}
-
-	#rightalign{
-		text-align:right;
-	}
-
-	#resources{
-		color: #909090;
-		display:block;
-		padding: 0px;
-		margin: 0px;
-		text-align: center;
-	}
 
 	#footer{
 		background-color: black;
