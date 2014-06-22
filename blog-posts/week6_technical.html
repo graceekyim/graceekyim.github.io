@@ -145,7 +145,7 @@
 
 				In example 3, we took Proc Example 2 and placed the Proc object in a new method called <em>test</em>. We changed <em>puts</em> back to <em>return</em> since we are testing how procs handle the <em>return</em> statement. In line 3, we called proc_letter by using the <em>call</em> method and passed in the letter "k". In line 4, we told the method to <em>puts</em> "I printed the last line". Then in line 7, we called the <em>test</em> method to see what would happen.<br/><br/> 
 
-				In the result, you'll see that we ran the Ruby file, but it did not <em>puts</em> "I printed the last line". Here's what happened: When the test method started running, it called proc_letter in line 3 and started executing line 2. When the proc ran into the return statement in line 2, it returned the letter "k" and then stopped. Line 4 was never executed since procs stop after they encounter <em>return</em> statements. <br/><br/>
+				In the result, you'll see that we ran the Ruby file, but it did not <em>puts</em> "I printed the last line". Here's what happened: When the <em>test</em> method started running, it called proc_letter in line 3 and started executing line 2. When the proc ran into the return statement in line 2, it returned the letter "k" and then stopped. Line 4 was never executed since procs stop after they encounter <em>return</em> statements. <br/><br/>
 
 				Now that we've seen how procs work, let's take a look at how lambdas differ from procs...<br/><br/>
 
@@ -189,7 +189,7 @@
 
 				<h3>Lambdas & <em>return</em> Statements</h3>
 
-				Now let's see how the test method would look if we used a lambda by creating a lambda that contains the same block as Proc Example 3: <br/><br/>
+				Now let's see how the <em>test</em> method would look if we used a lambda by creating a lambda that contains the same block as Proc Example 3: <br/><br/>
 
 				Lambda Example 3:<br/>
 
@@ -201,7 +201,7 @@
 
 				In line 2, the block contained within lambda_letter is the same as the block contained within Proc Example 3 and the only difference is the syntax: lambda <em>{...}</em>. <br/><br/>
 
-				In the result, you'll see that the code <em>puts</em> "I printed the last line". Here's what happened: When the test method started running, it called lambda_letter in line 3 and started executing line 2. When the lambda ran into the return statement in line 2, it returned the letter "k". Unlike the proc, the lambda did not stop there. It continued through the rest of the method and executed line 4, printing "I printed the last line". <br/><br/>
+				In the result, you'll see that the code <em>puts</em> "I printed the last line". Here's what happened: When the <em>test</em> method started running, it called lambda_letter in line 3 and started executing line 2. When the lambda ran into the return statement in line 2, it returned the letter "k". Unlike the proc, the lambda did not stop there. It continued through the rest of the method and executed line 4, printing "I printed the last line". <br/><br/>
 
 				<hr>
 
