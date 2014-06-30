@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<link rel="stylesheet" type="text/css" href="./stylesheets/week7_technical.css">
+
+	<head>
+		<title>Grace Yim | the blog</title>
+	</head>
+
+	<body>
+		<div id="header">Grace Yim <span class="yim">the blog</span></div>
+
+		<ul id="linkbar">
+			<li><a href="http://graceekyim.github.io/index.html">Home</a></li>
+			<li><a href="./aboutme.html">About Me</a></li>
+			<li><a href="http://devbootcamp.com" target="_blank">Dev Bootcamp</em></a></li>
+		</ul>
+
+		<div id="post1">
+			<p class="date1">Saturday, June 28, 2014</p>
+
+			<h1 id="head1"><span id="subheader">Technical Blog 3.7</span><br/>SQL Databases vs. NoSQL Databases</h1>			
+			
+				<h2>Introduction to SQL and NoSQL Databases</h2>
+
+				When you consider an average person's everyday internet activity, cellphone usage and credit card transactions, you can probably imagine the huge volume of data that is being collected on a daily basis by different companies. This data is collected and stored so that it can be easily accessed and analyzed. This is where we turn to the power of databases. <br/><br/>
+
+				The databases we'll review today are SQL and NoSQL databases. Both of these databases have unique strengths and we'll cover some of the major differences between them. <br/><br/>
+
+				<hr>
+			
+				<h2>SQL Databases</h2>
+			
+				SQL databases are called relational databases and have been around since the 1970s. The basic structure of SQL databases is a table with rows, columns and predetermined data types built as a schema before any data is added to the database. Since the structure of SQL databases is fixed, the entire database must be altered if a new field is added to the database. This makes it very difficult to incorporate complex data into SQL databases. Meanwhile, smaller-scale data can be managed easily in SQL.<br/><br/>
+
+				Another trait of SQL databases is that they are vertically scalable. This means that a server needs to be made more powerful to accommodate higher demand, instead of adding new servers to handle the higher demand.<br/><br/>
+
+				When it comes to queries, SQL databases use SQL (structured query language) for accessing data, which is generally consistent for all SQL databases. This makes it easier to access data from different SQL databases since you're using the same syntax, making it a powerful query language. <br/><br/>
+
+				<hr>
+
+				<h2>NoSQL Databases</h2>
+
+				NoSQL databases, as you can guess from the name, are very different from SQL databases. For starters, NoSQL databases are generally referred to as non-relational databases, or distributed databases. Instead of tables, data is stored in key-value stores, document databases, graph stores or wide-column stores. This means the structure of NoSQL databases varies by database and this structure allows NoSQL databases to be more dynamic and flexible. <br/><br/>
+
+				Unlike SQL databases, NoSQL databases are horizontally scalable. This means that they can be scaled by increasing the quantity of servers instead of increasing the power of a single server as in the case of a vertically scalable database. <br/><br/>
+
+				As for queries, NoSQL databases use UnQL (unstructured query language), which varies from database to database. This makes it more difficult to run queries since the syntax differs for each database and requires more training for any user who manages NoSQL databases. <br/><br/>
+
+				<hr>
+
+				<h2>Summary</h2>
+
+				Based on the descriptions above, you can see that there are strengths and weaknesses for both types of databases. It is easier to run queries on SQL databases while NoSQL databases are better equipped to store dynamic data. Meanwhile, SQL databases can be built with strong consistency while NoSQL databases can be easily scaled for higher demand.<br/><br/>
+
+				To find out more about the SQL vs NoSQL debate, check out one of the following resources:
+
+				<ul>
+					<li><a href="http://www.mongodb.com/nosql-explained" id = "resources" target="_blank">NoSQL Databases Explained (MongoDB)</a></li>
+					<li><a href="http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/" id = "resources" target="_blank">SQL vs NoSQL Database Differences Explained... (The Geek Stuff)</a></li>
+					<li><a href="https://www.udemy.com/blog/nosql-vs-sql/" id = "resources" target="_blank">NoSQL vs SQL - A Time for Change? (Udemy)</a></li>
+				</ul>
+
+				<hr>
+
+				<h2>My Preference</h2>
+				While I can see the benefits of both SQL and NoSQL databases, I am most excited about learning to use NoSQL databases. They seem to be the better option for storing large volumes of data and I'm interested to see the complexities of dynamic database structures.  <br/><br/><br/>
+			
+		</div>
+
+		<div id="footer">Grace Yim <span class="footer">the blog</span></div>
+
+</html>
