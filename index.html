@@ -1,83 +1,23 @@
-<!DOCTYPE html>
-<html>
-	
-	<link rel="stylesheet" type="text/css" href="./blog-posts/stylesheets/index.css">
+---
+layout: default
+---
 
-	<head>
-		<title>Grace Yim | the blog</title>
-	</head>
+<div class="home">
 
-	<body>
-	<div id="wrapper">
+  <h1 class="page-heading">Posts</h1>
 
-		<div id="header">Grace Yim <span class="yim">the blog</span></div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-		<ul id="navbar">
-			<li class="home">Home</li>
-			<li><a href="./unit1_projects/aboutme.html">About Me</a></li>
-			<li><a href="http://devbootcamp.com" target="_blank">Dev Bootcamp</em></a></li>
-		</ul>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-		<div id="post1">
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-			<h2>Blog Posts</h2>
-
-			<a href="./blog-posts/week9_cultural.html"><span id="subheader">Cultural Blog Post (3.9)</span><br/>Asking the Right Questions</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week8_technical.html"><span id="subheader">Technical Blog Post (3.8)</span><br/>Web Security</a><br/>
-			<a href="./blog-posts/week8_cultural.html"><span id="subheader">Cultural Blog Post (3.8)</span><br/>Dealing with Conflict</a><br/>
-
-			<hr>
-			
-			<a href="./blog-posts/week7_technical.html"><span id="subheader">Technical Blog Post (3.7)</span><br/>SQL Databases vs NoSQL Databases</a><br/>
-			<a href="./blog-posts/week7_cultural.html"><span id="subheader">Cultural Blog Post (3.7)</span><br/>Affirmation & Stereotype Threat</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week6_technical.html"><span id="subheader">Technical Blog Post (2.6)</span><br/>Ruby Blocks, Procs and Lambdas</a><br/>
-			<a href="./blog-posts/week6_cultural.html"><span id="subheader">Cultural Blog Post (2.6)</span><br/>Stereotype Threat</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week5_technical.html"><span id="subheader">Technical Blog Post (2.5)</span><br/>Ruby Classes</a><br/>
-			<a href="./blog-posts/week5_cultural.html"><span id="subheader">Cultural Blog Post (2.5)</span><br/>Pairing & Giving Feedback</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week4_technical.html"><span id="subheader">Technical Blog Post (2.4)</span><br/>Ruby Loops...Ruby Loops...Ruby Loops...</a><br/>
-			<a href="./blog-posts/week4_cultural.html"><span id="subheader">Cultural Blog Post (2.4)</span><br/>Cybersecurity</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week3_technical.html"><span id="subheader">Technical Blog Post (1.3)</span><br/>Javascript in Web Development</a><br/>
-			<a href="./blog-posts/week3_cultural.html"><span id="subheader">Cultural Blog Post (1.3)</span><br/>Thinking and Learning</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week2_technical.html"><span id="subheader">Technical Blog Post (1.2)</span><br/>CSS Display: Inline vs. Inline-Block</a><br/>
-
-			<hr>
-
-			<a href="./blog-posts/week1_technical_blog.html"><span id="subheader">Technical Blog Post (1.1)</span><br/>Favorite Websites</a><br/>
-			<a href="./blog-posts/week1_cultural.html"><span id="subheader">Cultural Blog Post (1.1)</span><br/>Chefs in the Kitchen</a><br/><br/><br/>
-
-		</div>
-
-
-		<div id="sidebar">
-			<img src="./unit1_projects/images/grace_yim.jpeg" alt="Grace">
-			<img src="./unit1_projects/images/chicago.jpg" alt="Chicago"><br/>
-
-		<p id="info">Hi! My name is Grace and I am a database specialist living in Chicago. <br/>I'll be starting at Dev Bootcamp in July of 2014. </p> 
-
-		</div>
-
-		
-
-		<div id="footer">Grace Yim <span class="footer">the blog</span></div>
-
-	</div>
-
-</html>
+</div>
