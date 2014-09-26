@@ -2,22 +2,17 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="intro">
+  <h1>Hi, my name is <span class="grace">Grace</span>.</h1>
+  <h2>I'm a former database specialist turned <span class="web-dev">web developer</span><br/> searching for apprenticeship or junior developer positions. 
+  </h2>
 </div>
+
+<div class="links">
+  {% for page in site.pages %}
+	  {% if page.title %}
+	  	<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	  {% endif %}
+  {% endfor %}
+</div>
+
