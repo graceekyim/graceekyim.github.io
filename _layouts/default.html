@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
+  {% include nav.html %}
 
   <body>
 
-    {% include header.html %}
+    {% for page in site.pages_list %}
+      &nbsp;&nbsp;&nbsp;
+      <small><a href="{{ page[1] }}">{{ page[0] }}</a></small>
+    {% endfor %}
+
+    <!-- {% include header.html %} -->
 
     <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
     </div>
 
     {% include footer.html %}
