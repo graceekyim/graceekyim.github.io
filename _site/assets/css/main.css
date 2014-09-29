@@ -163,8 +163,10 @@ a.icon-email {
 .intro {
   margin: auto;
   width: 100%;
+  min-width: 800px;
   height: 200px;
   text-align: center;
+  margin-left: 30px;
 }
 
 .intro h1 {
@@ -187,6 +189,9 @@ span.web-dev {
 .links {
   text-align: center;
   font-size: 1.5em;
+  width: 100%;
+  min-width: 800px;
+  margin-left: 30px;
 }
 
 .links a {
@@ -195,80 +200,86 @@ span.web-dev {
 }
 
 /**
+ * Projects
+ */
+
+
+.left-col, .right-col {
+  width: 40%;
+  float:left;
+  margin: 50px;
+}
+
+.projects hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px dotted grey;
+}
+
+.projects img {
+  max-width: 200px;
+  display: block;
+  margin: 30px auto;
+}
+
+.projects h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #494949;
+}
+
+.projects p {
+  text-align: center;
+}
+
+.projects h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #494949;
+}
+
+/**
+ * Resume
+ */
+
+.resume {
+  padding-left: 40px;
+}
+
+.resume hr {
+  padding: 0;
+  width: 95%;
+}
+
+.resume h2 {
+  color: #494949;
+  margin-top: 40px;
+}
+
+
+
+
+
+/**
  * Page content
  */
 
 .page-content {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
 .post-header {
-    margin-bottom: $spacing-unit;
+  width: 100%;
+  min-width: 600px;
+  margin-left: 30px;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  font-size: 48px;
+  text-align: center;
+  color: #494949;
 }
 
-.post-content {
-    margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-}
