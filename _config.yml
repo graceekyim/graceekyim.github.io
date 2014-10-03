@@ -2,7 +2,7 @@ title:            Grace Yim
 description:      Grace Yim
 url:              # Site url.
 signoff:          Grace Yim
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+google_analytics: 'UA-55275008-1'
 
 links:
   - name:         About
