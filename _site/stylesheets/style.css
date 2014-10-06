@@ -379,3 +379,13 @@ img {
 img.apps {
   display: block;
   margin: auto; }
+
+.projects h3 {
+  text-align: center;
+}
+
+/** Index **/
+
+.index {
+  text-align: center;
+}
