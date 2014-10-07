@@ -8,16 +8,22 @@ title: Resume
 	<h3 class="muted">Skills</h3>
 	<div class="skills">
 		<hr>
-		Ruby on Rails, JavaScript (jQuery, Ajax), Sinatra, MVC, SQL (SQLite, PostgreSQL), ActiveRecord, HTML/CSS, Git/GitHub, Testing Frameworks (RSpec, Capybara), Test Driven Development, Object Oriented Design, Pair Programming
+		<em>Languages</em>: Ruby, JavaScript (jQuery, Ajax)<br>
+		<em>Web Frameworks</em>: Rails, Sinatra<br>
+		<em>Testing Frameworks</em>: RSpec, Capybara, Jasmine<br>
+		<em>Database</em>: SQL (PostgreSQL, SQLite), ActiveRecord<br>
+		<em>Front End</em>: HTML, CSS
+		<em>Revision Control</em>: Git
+		<em>Methodologies</em>: Test-Driven Development, Object-Oriented Design
 	</div>
 
 	<h3 class="muted">Education</h3>
 	<div class="education">
 		<hr>
-		<strong>Dev Bootcamp</strong>, Summer 2014<br>
+		<em>Dev Bootcamp</em>, Summer 2014<br>
 		Web Development Student
 
-		<br><br><strong>Wheaton College</strong>, Spring 2007<br>
+		<br><br><em>Wheaton College</em>, Spring 2007<br>
 		Bachelor of Arts - English & Communication
 	</div>
 
