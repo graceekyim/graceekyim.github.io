@@ -32,7 +32,7 @@ title: Resume
 	<div class="experience">
 		<hr>
 
-		<strong><a href="www.devbootcamp.com">Dev Bootcamp</a></strong>, Chicago, IL<br>
+		<strong><a href="http://www.devbootcamp.com">Dev Bootcamp</a></strong>, Chicago, IL<br>
 		Web Development Student, May 2014 – September 2014<br>
 
 		<li>Completed 19-week web development training program, developing skills in Ruby, Rails, Sinatra, JavaScript, SQL, Git, HTML, CSS, OOD, Test Driven Development and pair programming.</li><br>
