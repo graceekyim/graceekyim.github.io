@@ -3,12 +3,12 @@ layout: page
 title: About
 ---
 
-Welcome to my site! 
+Approximately one year ago, I enrolled in a course in computer programming that introduced me to the world of object oriented programming. The course covered the fundamentals of Java and I was fascinated with this new ability I had to build a program using a collection of words and punctuation. This fascination triggered my decision to apply to Dev Bootcamp, and my enthusiasm for coding grew exponentially over the course of the 19-week program. As a recent graduate of Dev Bootcamp, I am thrilled to finally start my new career as a web developer! 
 
-When I first graduated college, I was eager to start a career in sports administration and I was lucky enough to get a position in soccer events management. For almost five years, I traveled extensively, learning the ins and outs of event operations and sales. The sports industry was full of perks and I enjoyed all the unique opportunities I was given but I started to realize that it was missing something and started searching for that missing piece.
+I thrive in an environment where I'm confronted with challenges that can be solved creatively. This stems from two passions I've had since I was a child: puzzles and literature.
 
-Through twists and turns in non-profit fundraising and database management, I'm so glad to have finally found what was missing - the potential for learning something new and solving problems every single day. So here I am, a web developer who is passionate about knowledge and the endless possibilities for growth in the programming world. 
+Whether it's a crossword, Sudoku or a logic puzzle, I love the thrill of solving what was once puzzling. I love reading, writing and discovering the mystery behind people and places in fictional worlds. I believe both of these interests are combined in my love of coding.
 
-I thrive in an environment where I'm given problems to solve and projects to complete. This overflows into all my other interests. I love puzzles, crosswords, jigsaws, sudokus and everything in-between. I love reading and discovering the mystery behind peoples and places in fictional worlds. I love writing code and seeing how numbers, words and symbols can create programs and objects that can be manipulated and molded to all our needs. 
+When I’m coding, I feel like I’m tackling a puzzle and I’m fascinated by the creative process that goes into finding the best solution for the task. Because of the way coding aligns with my passions, working in web development has inspired and motivated me in ways that no other job ever has.
 
-I want to take this excitement and energy and help you build your ideas from nothing into something wonderful. Contact me and let me know how I can help you make the next new, amazing thing!
+I want to use the excitement and energy I have for coding to help you build your ideas into something wonderful. Contact me and let me know how I can help you make the next new, amazing thing!
