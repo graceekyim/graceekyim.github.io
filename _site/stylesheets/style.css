@@ -161,7 +161,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #1d5884;
+    color: #66666E;
     background-repeat: repeat-x;
     background-position: left bottom; }
   a.big-button, .as-link.big-button {
@@ -250,8 +250,7 @@ section.post {
   section.post h1 {
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5em;
-    margin-bottom: 60px; }
+    line-height: 1.5em; }
     section.post h1 .date {
       color: #d0d0d0;
       font-size: 10px; }
@@ -378,14 +377,61 @@ img {
 
 img.apps {
   display: block;
-  margin: auto; }
+  margin: 30px auto; 
+}
 
-.projects h3 {
-  text-align: center;
+.projects h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.projects p {
+  margin: 0;
+}
+
+.projects hr {
+  margin: 2px;
 }
 
 /** Index **/
 
 .index {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
   text-align: center;
+  color: #66666E;
+}
+
+.grace {
+  color: #05c4b4;
+}
+
+.dbc a {
+  color: #3871ed;
+}
+
+.austin {
+  color: #f48938;
+}
+
+
+/** Header **/
+
+.header-title {
+  color: #66666E;
+}
+
+/** Resume **/
+
+.resume h3 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.resume hr {
+  margin: 5px;
+}
+
+.resume a {
+  color: #05c4b4;
 }
