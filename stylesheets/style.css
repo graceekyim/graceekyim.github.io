@@ -393,6 +393,20 @@ img.apps {
   margin: 2px;
 }
 
+.projects .links {
+  text-align: center;
+}
+
+.projects li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.projects a {
+  color: #3871ed;  
+}
+
 /** Index **/
 
 .index {
