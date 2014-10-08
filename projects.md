@@ -8,7 +8,7 @@ title: Projects
 	<h4 class="muted">Description</h4>
 	<hr>
 	<p>
-		browsin' provides users with an efficient way to search streaming movies and shows based on their subscriptions to Netflix, Hulu Plus and HBO Go. Results are sorted by ratings collected from IMDB and Rotten Tomatoes, allowing users to immediately discover the highest-rated content available to them.
+		<em>browsin'</em> provides users with an efficient way to search streaming movies and shows based on their subscriptions to Netflix, Hulu Plus and HBO Go. Results are sorted by ratings collected from IMDB and Rotten Tomatoes, allowing users to immediately discover the highest-rated content available to them.
 	</p>
 	<h4 class="muted">Technologies</h4>
 	<hr>
@@ -25,7 +25,7 @@ title: Projects
 	<h4 class="muted">Description</h4>
 	<hr>
 	<p>
-		Jam Session is a social networking app that allows musicians to find other musicians in Chicago to jam with.
+		<em>Jam Session</em> is a social networking app that allows musicians to find other musicians in Chicago to jam with.
 	</p>
 	<h4 class="muted">Technologies</h4>
 	<hr>
