@@ -4,7 +4,13 @@ title: Projects
 ---
 
 <div class="projects">
-	<a href="http://browsin-dbc.herokuapp.com/"><img class = "apps" src="/images/browsin.png" title="browsin"></a>
+	<img class = "apps" src="/images/browsin.png" title="browsin">
+
+	<div class="links">
+		<li><a href="http://browsin-dbc.herokuapp.com/" target="_blank">Heroku</a></li>
+		<li><a href="https://github.com/bobolinks-2014/browsin" target="_blank">GitHub</a></li>
+	</div>
+
 	<h4 class="muted">Description</h4>
 	<hr>
 	<p>
@@ -21,7 +27,13 @@ title: Projects
 		As the team lead, I was responsible for organizing the stand ups and assigning coding tasks. I built the back end API parsers and a website scraper to collect data regarding movies and shows available through Netflix, Hulu and HBO Go, as well as reviews available through IMDB and Rotten Tomatoes.
 	</p><br>
 
-	<a href="http://jam-session.herokuapp.com/"><img class = "apps" src="/images/jam_session.png" title="Jam Session"></a>
+	<img class = "apps" src="/images/jam_session.png" title="Jam Session">
+
+	<div class="links">
+		<li><a href="http://jam-session.herokuapp.com/" target="_blank">Heroku</a></li>
+		<li><a href="https://github.com/bobolinks-2014/jam-session" target="_blank">GitHub</a></li>
+	</div>
+
 	<h4 class="muted">Description</h4>
 	<hr>
 	<p>
