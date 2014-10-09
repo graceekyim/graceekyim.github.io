@@ -8,13 +8,8 @@ title: Resume
 	<h3 class="muted">Skills</h3>
 	<div class="skills">
 		<hr>
-		<em>Languages</em>: Ruby, JavaScript (jQuery, Ajax)<br>
-		<em>Web Frameworks</em>: Rails, Sinatra<br>
-		<em>Testing Frameworks</em>: RSpec, Capybara, Jasmine<br>
-		<em>Database</em>: SQL (PostgreSQL, SQLite), ActiveRecord<br>
-		<em>Front End</em>: HTML, CSS
-		<em>Revision Control</em>: Git
-		<em>Methodologies</em>: Test-Driven Development, Object-Oriented Design
+		Ruby, JavaScript (jQuery, Ajax), Rails, Sinatra, SQL (PostgreSQL, SQLite), ActiveRecord, HTML/CSS, 
+		RSpec, Capybara, Git, Test Driven Development, Object Oriented Design, Pair Programming
 	</div>
 
 	<h3 class="muted">Education</h3>
@@ -35,7 +30,7 @@ title: Resume
 		<strong><a href="http://www.devbootcamp.com" target="_blank">Dev Bootcamp</a></strong>, Chicago, IL<br>
 		Web Development Student, May 2014 – September 2014<br>
 
-		<li>Completed 19-week web development training program, developing skills in Ruby, Rails, Sinatra, JavaScript, SQL, Git, HTML, CSS, OOD, Test Driven Development and pair programming.</li><br>
+		<li>Completed 19-week web development training program, developing skills in Ruby, Rails, Sinatra, JavaScript, SQL, Git, HTML/CSS, Object Oriented Design, Test Driven Development and pair programming.</li><br>
 
 		<strong><a href="http://fourthchurch.org/" target="_blank">Fourth Presbyterian Church of Chicago</a></strong>, Chicago, IL<br>
 		Database Specialist, October 2013 – July 2014
