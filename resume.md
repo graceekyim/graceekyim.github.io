@@ -8,8 +8,8 @@ title: Resume
 	<h3 class="muted">Skills</h3>
 	<div class="skills">
 		<hr>
-		Ruby, JavaScript (jQuery, Ajax), Rails, Sinatra, SQL (PostgreSQL, SQLite), ActiveRecord, HTML/CSS, 
-		RSpec, Capybara, Git, Test Driven Development, Object Oriented Design, Pair Programming
+		Ruby, JavaScript (jQuery, Ajax), Rails, SQL (PostgreSQL, SQLite), ActiveRecord, HTML/CSS,
+		Git, Test Driven Development, Object Oriented Design, Pair Programming
 	</div>
 
 	<h3 class="muted">Education</h3>
@@ -26,6 +26,12 @@ title: Resume
 	<h3 class="muted">Experience</h3>
 	<div class="experience">
 		<hr>
+
+		<strong><a href="https://www.toopher.com/" target="_blank">Toopher</a></strong>, Austin, TX<br>
+		Software Apprentice, November 2014 - Present<br>
+
+		<li>Developed software for Toopher’s location-based two-factor authentication, acquiring experience in Android development, Java, CoffeeScript and Objective-C.</li>
+		<li>Refactored and updated existing Toopher language libraries (Python, Ruby, PHP, Java, Perl, .NET).</li><br>
 
 		<strong><a href="http://www.devbootcamp.com" target="_blank">Dev Bootcamp</a></strong>, Chicago, IL<br>
 		Web Development Student, May 2014 – September 2014<br>
