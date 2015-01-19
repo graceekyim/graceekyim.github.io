@@ -19,12 +19,12 @@ title: Projects
 	<h4 class="muted">Technologies</h4>
 	<hr>
 	<p>
-		Ruby on Rails, PostgreSQL, Nokogiri, JavaScript, Guidebox API, OMDB API
+		Ruby on Rails, PostgreSQL, Nokogiri, JavaScript, Guidebox API, OMDB API, HTML, CSS
 	</p>
 	<h4 class="muted">Contributions</h4>
 	<hr>
 	<p>
-		As the team lead, I was responsible for organizing the stand ups and assigning coding tasks. I built the API parsers and a website scraper to collect data regarding movies and shows available through Netflix, Hulu and HBO Go, as well as reviews available through IMDB and Rotten Tomatoes.
+		I built the API parsers and a website scraper to collect data regarding movies and shows available through Netflix, Hulu and HBO Go, as well as ratings available through IMDB and Rotten Tomatoes. As the team lead, I was also responsible for organizing the stand ups and assigning coding tasks.
 	</p><br>
 
 	<img class = "apps" src="/images/jam_session.png" title="Jam Session">
@@ -42,7 +42,7 @@ title: Projects
 	<h4 class="muted">Technologies</h4>
 	<hr>
 	<p>
-		Ruby on Rails, PostgreSQL, HTML and CSS
+		Ruby on Rails, PostgreSQL, HTML, CSS
 	</p>
 	<h4 class="muted">Contributions</h4>
 	<hr>
