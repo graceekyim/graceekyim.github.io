@@ -27,10 +27,10 @@ title: Resume
 	<div class="experience">
 		<hr>
 
-		<strong><a href="https://www.toopher.com/" target="_blank">Toopher</a></strong>, Austin, TX<br>
+		<strong><a href="http://www.toopher.com/" target="_blank">Toopher</a></strong>, Austin, TX<br>
 		Software Apprentice, November 2014 - Present<br>
 
-		<li>Developed software for Toopher’s location-based two-factor authentication, acquiring experience in Android development, Java, CoffeeScript and Objective-C.</li>
+		<li>Developed software for Toopher’s two-factor authentication, acquiring experience in Android development, Java, CoffeeScript and Objective-C.</li>
 		<li>Refactored and updated existing Toopher language libraries (Python, Ruby, PHP, Java, Perl, .NET).</li><br>
 
 		<strong><a href="http://www.devbootcamp.com" target="_blank">Dev Bootcamp</a></strong>, Chicago, IL<br>
